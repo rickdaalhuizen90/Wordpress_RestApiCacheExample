@@ -9,7 +9,7 @@ Author: Rick Daalhuizen
 function generate_large_string() {
     $base_string = str_repeat('A', 1024); // 1KB
     // Repeat the base string 10240 times to get approximately 10MB
-    return str_repeat($base_string, 10240); // 100MB
+    return str_repeat($base_string, 10240); // 10MB
 }
 
 function example_nocache( ) {
